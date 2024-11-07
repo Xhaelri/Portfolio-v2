@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("move-to-top-styles.css");
 
 :root {
   /* Heading */
@@ -38,6 +39,15 @@
   --color-white: white;
 }
 
+/* UTILITY CLASS */
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -69,6 +79,8 @@ body {
   padding: 0;
 }
 
+/* NAVIGATION BAR */
+
 #nav-bar {
   display: flex;
   flex-direction: row;
@@ -94,6 +106,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   padding: 0 32px;
+  cursor: pointer;
 }
 .nav_icon {
   font-size: var(--fs-20-heading-h5);
@@ -117,6 +130,8 @@ body {
   border-style: none;
   cursor: pointer;
 }
+
+/* HERO CONTENT */
 
 #hero {
   height: 80vh;
@@ -155,6 +170,7 @@ body {
   position: relative;
   gap: 20px;
   top: 100px;
+  cursor: pointer;
 }
 .hero_content h2 {
   font-size: var(--fs-48-heading);
@@ -182,6 +198,8 @@ body {
   line-height: 24px;
   color: #404040;
 }
+
+/* SKILLS CONTENT */
 
 #skills {
   height: 75vh;
@@ -239,6 +257,9 @@ body {
   font-size: var(--fs-20-heading-h5);
   line-height: var(--fs-20-lh);
 }
+
+
+/* EXPERIENCE CONTENT */
 
 #experience {
   width: 100%;
@@ -307,6 +328,8 @@ body {
   line-height: var(--fs-16-lh);
   font-weight: 500;
 }
+
+/* ABOUT CONTENT */
 
 #about {
   height: 75vh;
@@ -392,6 +415,8 @@ body {
   color: var(--color-neutral);
 }
 
+/* CONTACT CONTENT */
+
 #contact {
   height: 60vh;
   padding: 60px 80px;
@@ -407,6 +432,15 @@ body {
 form {
   width: 40%;
   padding-bottom: 20px;
+}
+.contact_social{
+  display: flex;
+  gap: 30px;
+}
+.contact_icons{
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
 }
 input[type="text"],
 textarea {
@@ -433,6 +467,7 @@ input[type="submit"] {
   width: 173px;
   height: 56px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .contact_content {
@@ -449,6 +484,8 @@ input[type="submit"] {
 .contact_content h2 .regular {
   font-weight: 400;
 }
+
+/* FOOTER CONTENT */
 
 #footer {
   height: 8vh;
@@ -470,10 +507,3 @@ input[type="submit"] {
   font-weight: 700;
 }
 
-.container {
-  max-width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}

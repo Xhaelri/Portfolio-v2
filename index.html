@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="move-to-top-styles.css">
 
     <title>Ali Saleh</title>
 </head>
@@ -144,7 +145,7 @@
         <article id="projects" class="container">
             <div class="project_container">
                 <div class="project_content">
-                    <h2><span class="regular">My </span>project</h2>
+                    <h2><span class="regular">My </span>projects</h2>
                 </div>
                 <div class="project_cards">
                     <div class="project_card">
@@ -196,7 +197,13 @@
                     <input type="text" name="name" id="name" placeholder="Your name"><br>
                     <input type="text" name="email" id="email" placeholder="Email"><br>
                     <textarea id="subject" name="subject" placeholder="How can i help?"></textarea><br>
-                    <input type="submit" name="submit" id="submit" value="Get In Touch">
+                    <div class="contact_social">
+                        <input type="submit" name="submit" id="submit" value="Get In Touch">
+                        <div class="contact_icons">
+                            <img class="contact_icon" src="/assets/icons8-github-50.svg" alt="github-icon">
+                            <img class="contact_icon" src="/assets/icons8-linkedin-50.svg" alt="linkedin-icon">
+                        </div>
+                    </div>
                 </form>
                 <div class="contact_content">
                     <h2><span class="regular">About </span>Me</h2>
@@ -214,8 +221,13 @@
 
     <footer id="footer" class="container">
         <div class="footer_icon">Ali Saleh</div>
-        <div class="footer_copyrights">© 2024</div>
+        <div class="footer_copyrights">©2024</div>
     </footer>
+
+    <button class="back-to-top hidden"><img class="back-to-top-icon" src="assets/arrow-up-circle-svgrepo-com.svg"
+            alt="move top arrow" width="56px" height="56px"></button>
+
+    <script src="move-to-top.js"></script>
 </body>
 
 </html>
