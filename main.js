@@ -24,6 +24,8 @@ function sendEmail() {
 document.getElementById("submit").addEventListener("click", function (event) {
   event.preventDefault();
 
+  let isValid = true;
+
   const name = document.getElementById("name").value;
   if (name.length < 3 || name.length > 25) {
     document.getElementById("nameError").textContent =
@@ -53,7 +55,6 @@ document.getElementById("submit").addEventListener("click", function (event) {
   }
 
   if (isValid) {
-    alert("Form submitted successfully!");
     sendEmail();
   }
 });

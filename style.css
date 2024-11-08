@@ -430,38 +430,39 @@ body {
 
   padding: 20px 32px;
 }
-#contact-form{
+#contact-form {
   width: 40%;
   padding-bottom: 20px;
 }
-#contact-form span{
+#contact-form span {
   display: flex;
   position: relative;
   top: 10px;
 }
-#nameError, #subjectError, #emailError{
-animation-name: error;
-animation-duration: 0.2s;
-animation-iteration-count: 6;
-color:red;
+#nameError,
+#subjectError,
+#emailError {
+  animation-name: error;
+  animation-duration: 0.2s;
+  animation-iteration-count: 6;
+  color: red;
 }
-
 
 @keyframes error {
-0% {
-  color: rgba(255, 0, 0, 0.5);
-  left: 0px;
-}
+  0% {
+    color: rgba(255, 0, 0, 0.5);
+    left: 0px;
+  }
 
-50% {
-  color: rgba(255, 0, 0, 0.5);
-  left: 10px;
-}
+  50% {
+    color: rgba(255, 0, 0, 0.5);
+    left: 10px;
+  }
 
-100% {
-  color: rgba(255, 0, 0, 0.5);
-  left: 0px;
-}
+  100% {
+    color: rgba(255, 0, 0, 0.5);
+    left: 0px;
+  }
 }
 
 .contact_social {
@@ -473,7 +474,8 @@ color:red;
   gap: 30px;
   cursor: pointer;
 }
-input[type="text"],input[type="email"],
+input[type="text"],
+input[type="email"],
 textarea {
   background-color: var(--color-white);
   color: var(--color-black);
