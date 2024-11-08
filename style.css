@@ -92,6 +92,8 @@ body {
 
 .nav_icon {
   padding: 0px 32px;
+  display: flex;
+  align-items: center;
 }
 .nav_resume {
   padding: 0px 23px;
@@ -257,7 +259,6 @@ body {
   font-size: var(--fs-20-heading-h5);
   line-height: var(--fs-20-lh);
 }
-
 
 /* EXPERIENCE CONTENT */
 
@@ -433,11 +434,11 @@ form {
   width: 40%;
   padding-bottom: 20px;
 }
-.contact_social{
+.contact_social {
   display: flex;
   gap: 30px;
 }
-.contact_icons{
+.contact_icons {
   display: flex;
   gap: 30px;
   cursor: pointer;
@@ -497,7 +498,14 @@ input[type="submit"] {
   padding: 24px 80px;
   background-color: var(--color-black);
 }
-
+.footer_icon {
+  display: flex;
+  align-items: center;
+}
+.footer_icon img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+    hue-rotate(150deg) brightness(99%) contrast(100%);
+}
 .footer_copyrights,
 .footer_icon {
   padding: 0px 32px;
@@ -506,4 +514,3 @@ input[type="submit"] {
   line-height: var(--fs-20-lh);
   font-weight: 700;
 }
-
