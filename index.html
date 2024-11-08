@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="move-to-top-styles.css">
     <link rel="icon" type="image/x-icon" href="/assets/ali.svg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <title>Ali Saleh</title>
 </head>
 
@@ -194,10 +195,13 @@
 
         <article id="contact" class="container">
             <div class="contact_container">
-                <form action="">
-                    <input type="text" name="name" id="name" placeholder="Your name"><br>
-                    <input type="text" name="email" id="email" placeholder="Email"><br>
-                    <textarea id="subject" name="subject" placeholder="How can i help?"></textarea><br>
+                <form action="" id="contact-form">
+                    <span id="nameError"></span><br>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                    <span id="emailError"></span><br>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <span id="subjectError"></span><br>
+                    <textarea id="subject" name="subject" placeholder="How can i help?" required></textarea>
                     <div class="contact_social">
                         <input type="submit" name="submit" id="submit" value="Get In Touch">
                         <div class="contact_icons">
@@ -229,6 +233,7 @@
             alt="move top arrow" width="56px" height="56px"></button>
 
     <script src="move-to-top.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
