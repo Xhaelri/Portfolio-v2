@@ -1095,6 +1095,7 @@
     color: var(--color-black);
     font-size: var(--fs-48-heading);
     font-weight: 500;
+    padding-bottom: 10px;
   }
 
   .mobile_nav .close_button {
@@ -1531,6 +1532,7 @@
     color: var(--color-black);
     font-size: var(--fs-48-heading);
     font-weight: 500;
+    padding-bottom: 10px;
   }
 
   .mobile_nav .close_button {
