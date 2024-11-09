@@ -17,3 +17,14 @@
   filter: brightness(0) saturate(100%) invert(21%) sepia(75%) saturate(3%)
     hue-rotate(339deg) brightness(97%) contrast(94%);
 }
+
+.back-to-top-icon{
+  width: 56px;
+  height: 56px;
+}
+@media (max-width: 629px) {
+.back-to-top-icon{
+  width: 40px;
+  height: 40px;
+}
+}

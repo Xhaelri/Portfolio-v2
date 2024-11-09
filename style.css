@@ -734,7 +734,7 @@ label a {
   font-size: var(--fs-48-heading);
   line-height: var(--fs-48-lh);
   font-weight: 500;
-  
+  text-wrap: nowrap;
 }
 
 h1 {
@@ -746,6 +746,6 @@ h1 {
   width: 80%;
   text-align: center;
 }
-.mobile_nav{
-  display: block;
+label .menu {
+  display: none;
 }
