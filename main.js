@@ -58,3 +58,12 @@ document.getElementById("submit").addEventListener("click", function (event) {
     sendEmail();
   }
 });
+
+
+function toggleMenu() {
+  document.getElementById("mobile-nav").classList.toggle("active");
+}
+
+function closeMenuAndNavigate(event, targetId) {
+  toggleMenu(); 
+}

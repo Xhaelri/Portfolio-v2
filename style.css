@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 @import url("move-to-top-styles.css");
 @import url("responsive-styles.css");
+@import url("hamburger-menu.css");
 
 :root {
   /* Heading */
@@ -608,4 +609,21 @@ input[value="Get In Touch"]:active {
   font-size: var(--fs-20-heading-h5);
   line-height: var(--fs-20-lh);
   font-weight: 700;
+}
+
+.hamburger_menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger_menu span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-black);
+}
+
+.mobile_nav{
+  display: none;
 }

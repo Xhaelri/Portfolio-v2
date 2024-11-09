@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="move-to-top-styles.css">
     <link rel="stylesheet" href="responsive-styles.css">
+    <link rel="stylesheet" href="hamburger-menu.css">
     <link rel="icon" type="image/x-icon" href="/assets/ali.svg">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <title>Ali Saleh</title>
@@ -17,8 +18,8 @@
         <nav id="nav-bar">
             <div class="nav_icon"><img src="/assets/ali.svg" alt="" width="56px" height="56px"> Ali Saleh</div>
             <div class="nav_links">
-                <a href="#about">About Me</a>
                 <a href="#skills">Skills</a>
+                <a href="#about">About Me</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact Me</a>
             </div>
@@ -26,6 +27,25 @@
                 <a href="assets/Ali Saleh cv.pdf" download="Ali Saleh cv.pdf">Resume <img src="assets/download-icon.svg"
                         alt="download-icon" /></a>
             </div>
+
+            <div class="hamburger_menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="mobile_nav" id="mobile-nav">
+                <button class="close_button" onclick="toggleMenu()">&times;</button>
+                <div class="navigation_links">
+                    <a href="#skills" onclick="closeMenuAndNavigate(event, '#skills')">Skills</a>
+                    <a href="#about" onclick="closeMenuAndNavigate(event, '#about')">About Me</a>
+                    <a href="#projects" onclick="closeMenuAndNavigate(event, '#projects')">Projects</a>
+                    <a href="#contact" onclick="closeMenuAndNavigate(event, '#contact')">Contact Me</a>
+                    <a href="assets/Ali Saleh cv.pdf" download="Ali Saleh cv.pdf">Resume <img src="assets/download-icon.svg"
+                        alt="download-icon" /></a>
+                </div>
+            </div>
+
+
         </nav>
     </header>
     <section id="main">
