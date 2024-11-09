@@ -39,18 +39,6 @@
   --color-neutral: #404040;
   --color-white: white;
 }
-.button_hover {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
-    hue-rotate(150deg) brightness(99%) contrast(100%);
-  border-color: transparent;
-  background-color: var(--color-neutral);
-}
-.button_active {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%)
-    hue-rotate(0deg) brightness(0%) contrast(100%);
-  border-color: var(--color-black);
-  background-color: var(--color-white);
-}
 /* UTILITY CLASS */
 .container {
   max-width: 1536px;
