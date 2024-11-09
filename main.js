@@ -60,10 +60,7 @@ document.getElementById("submit").addEventListener("click", function (event) {
 });
 
 
-function toggleMenu() {
-  document.getElementById("mobile-nav").classList.toggle("active");
-}
 
-function closeMenuAndNavigate(event, targetId) {
-  toggleMenu(); 
+function closeMenuAndNavigate() {
+  document.getElementById("menuToggle").checked = false;
 }
