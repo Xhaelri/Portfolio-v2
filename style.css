@@ -47,11 +47,13 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+
 }
 
 html,
 body {
   overflow-x: hidden;
+  max-width: 100%;
   scroll-behavior: smooth;
 }
 
@@ -617,34 +619,18 @@ input[value="Get In Touch"]:active {
   font-weight: 700;
 }
 
-/* .hamburger_menu {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
-
-.hamburger_menu span {
-  width: 25px;
-  height: 3px;
-  background-color: var(--color-black);
-}
-
-.mobile_nav {
-  display: none;
-}
- */
+/* menu */
 
  label .menu {
+  
   display: block;
   position: absolute;
-  right: -100px;
-  top: -100px;
+  right: 0px;
+  top: 0px;
   z-index: 100;
-  width: 200px;
-  height: 200px;
-  background: #FFF;
-  border-radius: 50% 50% 50% 50%;
+  width: 100px;
+  height: 0px;
+  background: rgb(248, 13, 13);
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
@@ -654,7 +640,7 @@ input[value="Get In Touch"]:active {
 
 label .hamburger {
   position: absolute;
-  top: 135px;
+  top: 40px;
   left: 50px;
   width: 30px;
   height: 2px;
