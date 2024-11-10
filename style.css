@@ -49,6 +49,30 @@
   padding-right: 0.5rem;
 
 }
+.hide{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s ease-out;
+  transition-delay: 100ms
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.card_hide{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.1s ease-out;
+  transition-delay: 100ms
+}
+.card_show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
 
 html,
 body {
