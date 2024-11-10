@@ -3329,7 +3329,6 @@
 
 /* MOBILE*/
 @media (max-width: 625px) {
-    
   html,
   body {
     overflow-x: hidden;
@@ -5055,7 +5054,7 @@
   }
   .contact_icons {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     cursor: pointer;
   }
   .contact_icon {
@@ -5391,9 +5390,9 @@
   }
   .project_img {
     max-width: 500px;
-    width: 350px;
-    min-height: 250px;
-    height: 250px;
+    width: 300px;
+    min-height: 200px;
+    height: 200px;
     transition: transform 0.3s ease-in-out;
   }
   .project_img:hover {
@@ -5506,7 +5505,7 @@
   }
   .contact_icons {
     display: flex;
-    gap: 30px;
+    gap: 7px;
     cursor: pointer;
   }
   .contact_icon {
