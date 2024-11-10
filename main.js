@@ -59,8 +59,34 @@ document.getElementById("submit").addEventListener("click", function (event) {
   }
 });
 
-
-
+/* menu function */
 function closeMenuAndNavigate() {
   document.getElementById("menuToggle").checked = false;
 }
+/* observer*/
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+
+const observingElements = document.querySelectorAll(".container");
+observingElements.forEach((el) => observer.observe(el));
+//
+
+const observerCard = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("card_show");
+    } else {
+      entry.target.classList.remove("card_show");
+    }
+  });
+});
+const observingCards = document.querySelectorAll(".card_hide");
+observingCards.forEach((el) => observerCard.observe(el));
+
