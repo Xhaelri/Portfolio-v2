@@ -68,9 +68,9 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } /* else {
+    } else {
       entry.target.classList.remove("show");
-    } */
+    }
   });
 });
 
@@ -82,9 +82,9 @@ const observerCard = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("card_show");
-    } /*  else {
+    } else {
       entry.target.classList.remove("card_show");
-    } */
+    }
   });
 });
 const observingCards = document.querySelectorAll(".card_hide");
