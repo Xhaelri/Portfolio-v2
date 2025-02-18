@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="move-to-top-styles.css">
     <link rel="stylesheet" href="responsive-styles.css">
     <link rel="stylesheet" href="hamburger-menu.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="icon" type="image/x-icon" href="/assets/ali.svg">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <title>Ali Saleh</title>
@@ -73,6 +74,22 @@
                 </div>
                 <div class="skills_cards">
                     <div class="card card_hide">
+                        <img src="assets/icons8-react-native-100.svg" alt="HTML-icon" />
+                        <h2>React JS</h2>
+                    </div>
+                    <div class="card card_hide">
+                        <img src="assets/icons8-tailwind-css (1).svg" alt="HTML-icon" />
+                        <h2>Tailwind</h2>
+                    </div>
+                    <div class="card card_hide">
+                        <img src="assets/icons8-bootstrap (3).svg" alt="HTML-icon" />
+                        <h2>Bootstrap</h2>
+                    </div>
+                    <div class="card card_hide">
+                        <img src="assets/icons8-redux.svg" alt="HTML-icon" />
+                        <h2>Redux</h2>
+                    </div>
+                    <div class="card card_hide">
                         <img src="assets/icons8-html-5-100.svg" alt="HTML-icon" />
                         <h2>HTML</h2>
                     </div>
@@ -113,13 +130,11 @@
                         <div class="experience_card_header">
                             <div class="experience_name">
                                 <img src="/assets/iti.png" alt="iti_logo" width="35px" height="50px">
-                                Iti 4-months Front-end & Cross Platforms Track
+                                ITI - Front-end & Cross Platform Mobile ICC
                             </div>
                             <div class="experience_date">Nov 2024 - present</div>
                         </div>
-                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nesciunt ea non quidem
-                            alias expedita similique neque! Ratione sit tempore atque numquam esse. Id, officia. Natus
-                            labore iste blanditiis. Non! lo</h2>
+                        <h2>I am currently enrolled in the ITI Front-End & Cross Platform Mobile ICC program, where I am gaining hands-on experience in modern web and mobile development. The program covers front-end technologies like React.js, as well as cross-platform mobile development with React Native and Flutter. Through intensive training and real-world projects, I am enhancing my skills in UI/UX design, state management, performance optimization, and secure coding.</h2>
                     </div>
                 </div>
             </div>
@@ -146,10 +161,85 @@
 
         <article id="projects" class="container hide">
             <div class="project_container">
-                <div class="project_content">
+                <div class="project_content mb-10">
                     <h2><span class="regular">My </span>projects</h2>
                 </div>
-                <div class="project_cards">
+                
+<div class="flex flex-col items-center bg-black rounded-lg shadow-sm lg:flex-row my-10 ">
+    <img class="object-cover w-full  h-96 rounded-lg  md:h-auto md:w-[600px] " src="assets/Screenshot 2025-02-16 005521.png" alt="">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Prescripto</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Doctors Appointments built with React.js with Tailwind CSS for a dynamic
+            and responsive UI.</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Appointment Scheduling & Management: Users can book appointments
+            with doctors, while doctors can manage their schedules through a
+            dedicated panel. Admins can add and manage doctors via an admin panel.</p>
+            <div class="flex flex-row space-x-5">
+                <a href="https://prescripto-pied-one.vercel.app/"><img src="/assets/Read More.svg"
+                    alt="read-more-icon" /></a>
+                <a href="https://github.com/Xhaelri/Prescripto"><img src="/assets/icons8-github (1).svg"
+                    alt="github-icon" width="20px" height="20px" /></a>
+            </div>
+    </div>
+</div>
+<div class="flex flex-col items-center bg-black rounded-lg shadow-sm lg:flex-row my-10 ">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Newsteller</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">News App developed using React.js with Tailwind CSS for a sleek and
+            responsive design.</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Real-Time News & UI: Integrated a news API for live updates with an intuitive,
+            user-friendly interface.
+            •Responsive & Fast: Fully responsive design with optimized performance for
+            smooth interactions.</p>
+        <div class="flex flex-row space-x-5">
+            <!-- <a href="https://not-weather-app.vercel.app/"><img src="/assets/Read More.svg"
+                alt="read-more-icon" /></a> -->
+            <a href="https://github.com/Xhaelri/Newsteller"><img src="/assets/icons8-github (1).svg"
+                alt="github-icon" width="20px" height="20px" /></a>
+        </div>
+    </div>
+    <img class="object-cover w-full  h-96 rounded-lg  md:h-auto md:w-[600px] " src="assets/Screenshot 2025-02-18 162922.png" alt="">
+</div>
+<div class="flex flex-col items-center bg-black rounded-lg shadow-sm lg:flex-row my-10 ">
+    <img class="object-cover w-full  h-96 rounded-lg  md:h-auto md:w-[600px] " src="assets/Screenshot 2025-02-16 101606.png" alt="">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Netlix-Clone</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A fully responsive Netflix-inspired web application built with HTML, CSS,
+            JavaScript, React JS, Firebase.
+            • It features a sleek UI, dynamic content</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">It features a sleek UI, dynamic content display, user authentication, and
+            seamless navigation for an immersive streaming experience.</p>
+        <div class="flex flex-row space-x-5">
+            <a href="https://netflix-clone-2-tawny.vercel.app/"><img src="/assets/Read More.svg"
+                alt="read-more-icon" /></a>
+            <a href="https://github.com/Xhaelri/Netflix-clone"><img src="/assets/icons8-github (1).svg"
+                alt="github-icon" width="20px" height="20px" /></a>
+        </div>
+    </div>
+</div>
+<div class="flex flex-col items-center bg-black rounded-lg shadow-sm lg:flex-row my-10 ">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tomato</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Food Delivery App built with React.js, utilizing HTML, CSS, and JavaScript for a
+            dynamic and responsive UI.</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Navigation & Cart: Used React Router for smooth navigation and built a cart
+            with add, remove, update, and checkout features.
+            •Performance & Responsiveness: Optimized performance and ensured full
+            mobile responsiveness for a seamless experience.</p>
+        <div class="flex flex-row space-x-5">
+            <a href="https://vercel.com/xhaelris-projects/food-delivery-app-4hld/EB4Ym8dPRdGnwH8VGqH9o7yv55Ph"><img src="/assets/Read More.svg"
+                alt="read-more-icon" /></a>
+            <a href="https://github.com/Xhaelri/Tomato"><img src="/assets/icons8-github (1).svg"
+                alt="github-icon" width="20px" height="20px" /></a>
+        </div>
+    </div>
+    <img class="object-cover w-full  h-96 rounded-lg  md:h-auto md:w-[600px] " src="assets/Screenshot 2025-02-16 101153.png" alt="">
+    
+</div>
+
+
+<!-- 
+                
                     <div class="project_card card_hide">
                         <img class="project_img" src="/assets/2.png" alt="weatherapp">
                         <div class="project_info">
@@ -195,7 +285,7 @@
                                     height="20px" /></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </article>
 

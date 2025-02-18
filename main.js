@@ -69,9 +69,7 @@ function closeMenuAndNavigate() {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("show");
-      } /* else {
-        entry.target.classList.remove("show");
-      } */
+      } 
     });
   });
   
@@ -83,9 +81,7 @@ function closeMenuAndNavigate() {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("card_show");
-      } /*  else {
-        entry.target.classList.remove("card_show");
-      } */
+      } 
     });
   });
   const observingCards = document.querySelectorAll(".card_hide");
